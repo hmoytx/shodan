@@ -8,7 +8,7 @@ import re
 
 
 def collecturl(urlQueue):
-    API_KEY = 'dEJ60w8UwciXwFimX8PQ6Xd9p7RA2CzD'
+    API_KEY = 'YOUR_API_KEY'
     api = shodan.Shodan(API_KEY)
 
     try:
